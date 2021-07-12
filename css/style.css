@@ -152,19 +152,8 @@ label:hover span::before{
     font-weight: 500;
 }
 
-.home .home-content a{
-    display: inline-block;
-    background: #1977D2;
-    color: #fff;
-    font-size: 25px;
-    padding: 10px 30px;
-    margin-top: 20px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-}
-.home .home-content a:hover{
-    background: #d32f2f;
-}
+
+
 .title{
     cursor: pointer;
 }
@@ -686,13 +675,8 @@ svg {
     @keyframes glitch {
         }
 }
-.myGit{
-    fill: white;
-}
-.aGit{
-    display: inline-block;
 
-}
+
 
 
 .contact .title::after{
@@ -934,4 +918,65 @@ footer span{
 .nohide:hover + .hide{
     font-size: 20px;
     padding: 10px 10px;
+}
+.aGit{
+    display: inline-block;
+    /* background: linear-gradient(135deg, #1977D2 0%,#303f9f 20%,#7b1fa2 40%,#d32f2f 50%,#c2185b 60%,#455a64 80%,#0097a7 100% ); */
+}
+
+.home .home-content a{
+    display: inline-block;
+    background: linear-gradient(90deg, #1977D2 0%,#303f9f 20%,#7b1fa2 40%,#c2185b 60%,#9c27b0 80%,#1977D2 100% );
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    animation: anima 60s infinite;
+    background-size: 400%;
+    background-attachment: fixed;
+}
+@keyframes anima {
+    100%{
+        background-position: 400%;
+    }
+}
+.myGit{
+    fill: #fff;
+}
+.home .home-content a:hover{
+    scale: 1.2;
+}
+.remonter{
+    background: #d32f2f;
+    position: relative;
+}
+.remonter svg{
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+}
+.remonter{
+    padding-left: 0;
+    color: #fff;
+    background: #1977D2;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease;
+    height: 50px;
+    width: 80%;
+    margin: 16px 0;
+    position: relative;
+}
+remonter:hover{
+    background: #d32f2f;
+    border-color: #d32f2f;
+}
+.remonter:hover{
+    background: #d32f2f;
+}
+.remonter p{
+    position: absolute;left: 50%; top: 50%; transform: translate(-50%, -50%);
 }
