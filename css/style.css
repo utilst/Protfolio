@@ -915,6 +915,12 @@ footer span{
     z-index: 100000;
     transition: all .2s ease;
 }
+@media (max-width : 600px) {
+    .hide{
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+}
 .nohide:hover + .hide{
     font-size: 20px;
     padding: 10px 10px;
@@ -978,5 +984,8 @@ remonter:hover{
     background: #d32f2f;
 }
 .remonter p{
-    position: absolute;left: 50%; top: 50%; transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+     top: 50%;
+      transform: translate(-50%, -50%);
 }
