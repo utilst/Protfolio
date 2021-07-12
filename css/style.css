@@ -964,6 +964,7 @@ footer span{
     height: 30px;
 }
 .remonter{
+    border-radius: 8px;
     padding-left: 0;
     color: #fff;
     background: #1977D2;
