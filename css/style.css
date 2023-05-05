@@ -12,7 +12,9 @@
 
 .clavs,
 .clavs2,
-.home-content .text-3.glitch {
+.home-content .text-3.glitch,
+.title,
+.text {
     font-family: 'Courier Prime', monospace !important;
 }
 
